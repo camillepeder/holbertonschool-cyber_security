@@ -1,2 +1,2 @@
 #!/bin/bash
-cat /dev/urandom | tr -cd [:alnum:] | head -c 20
+cat /dev/urandom | tr -cd [:alnum:] | head -c $1
