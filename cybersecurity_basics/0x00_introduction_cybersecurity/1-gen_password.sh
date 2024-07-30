@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(openssl rand -base64 $1 | tr -d "=+/")
+cat /dev/urandom | tr -cd [:alnum:] | head -c 20
