@@ -1,2 +1,3 @@
 #!/bin/bash
-ps -U $1 -u $1 u | tail -n +2 | awk '$6 > 0 && $5 > 0'
+user=$1
+ps aux | tail -n +2 | awk -v uname="$user" '$1 == uname && $6 > 0 && $5 > 0'
