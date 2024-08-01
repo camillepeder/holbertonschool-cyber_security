@@ -24,7 +24,7 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 - How to configure and manage a firewall
 - How to identify and terminate malicious processes
 ### Working with commands:
-How to use the `ps` and `kill` commands to identify and terminate malicious processes
-How to use the `netstat` and `ss` commands to monitor network traffic for suspicious activity
-How to use the `nmap`, `lynis` and `tcpdump` commands to analyze network traffic for suspicious behavior
-How to use `iptables` and `ufw` to manage the firewall rules on Linux systems
+- How to use the `ps` and `kill` commands to identify and terminate malicious processes
+- How to use the `netstat` and `ss` commands to monitor network traffic for suspicious activity
+- How to use the `nmap`, `lynis` and `tcpdump` commands to analyze network traffic for suspicious behavior
+- How to use `iptables` and `ufw` to manage the firewall rules on Linux systems
