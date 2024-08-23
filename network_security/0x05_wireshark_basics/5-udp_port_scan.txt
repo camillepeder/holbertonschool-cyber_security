@@ -1,1 +1,1 @@
-icmp and frame.len >= 70
+icmp and icmp.type == 3
