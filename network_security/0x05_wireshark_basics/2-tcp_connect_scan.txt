@@ -1,0 +1,1 @@
+tcp and tcp.flags == 0x02 and tcp.window_size >= 32120
