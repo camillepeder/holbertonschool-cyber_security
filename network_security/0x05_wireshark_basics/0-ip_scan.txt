@@ -1,1 +1,1 @@
-1	0.000000000	10.0.2.15	10.8.0.9	ICMP	44	Echo (ping) request  id=0xfe58, seq=0/0, ttl=41 (reply in 4)
+ip.addr == 10.8.0.9
