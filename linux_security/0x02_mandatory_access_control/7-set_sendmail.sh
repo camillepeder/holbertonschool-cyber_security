@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo semanage -m --on httpd_can_sendmail
+sudo setsebool -P  httpd_can_sendmail 1
