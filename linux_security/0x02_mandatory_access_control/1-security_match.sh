@@ -1,0 +1,2 @@
+sudo apparmor_status
+
