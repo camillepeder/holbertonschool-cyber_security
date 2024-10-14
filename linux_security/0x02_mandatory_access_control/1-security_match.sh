@@ -1,2 +1,2 @@
-sudo apparmor_status
+sudo aa-status
 
