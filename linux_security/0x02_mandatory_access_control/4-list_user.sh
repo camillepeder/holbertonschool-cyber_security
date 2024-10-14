@@ -1,0 +1,2 @@
+sudo semanage user -l
+
