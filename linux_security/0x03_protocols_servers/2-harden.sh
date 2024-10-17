@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo find / -perm -777 -type d -exec sudo chmod 555 {} +
+sudo find / -xdev -type d -perm +o=w -exec sudo chmod o-w {} +
