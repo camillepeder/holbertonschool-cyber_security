@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -n "$1" | openssl sha1 -out 0_hash.txt
+echo -n "$1" | sha1sum -z | awk '{print $1}' > 0_hash.txt
