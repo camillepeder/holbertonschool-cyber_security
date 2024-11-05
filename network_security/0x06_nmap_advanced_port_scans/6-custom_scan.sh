@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo nmap -o custon_scan.txt -p $2 $1
+sudo nmap -o custon_scan.txt -scanflags SYN -p $2 $1
