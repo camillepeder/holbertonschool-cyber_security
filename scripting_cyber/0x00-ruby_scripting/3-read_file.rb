@@ -9,7 +9,7 @@ def count_user_ids(file_path)
         userIDs.append(value['userId'])
     end
     unique_IDs = userIDs.uniq
-    unique_IDs.each do |id|
+    unique_IDs.sort.each do |id|
         puts "#{id}: #{userIDs.count(id)}"
     end
 end
